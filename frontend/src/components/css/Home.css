@@ -1,0 +1,17 @@
+.home {
+    display: flex;
+    justify-content: center;
+}
+.home-video {
+    width: 100%;
+    height: fit-content;
+}
+.home-info {
+    position: absolute;
+    top: 40%;
+    background-color: white;
+    width: 55%;
+}
+.home-info h3{
+    text-align: center;
+}   
