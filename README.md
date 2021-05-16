@@ -1,1 +1,1 @@
-static website with React.js
+portfolio w react, django
