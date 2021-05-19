@@ -5,3 +5,6 @@ class Contact(models.Model):
     contact_email = models.EmailField(max_length=255)
     contact_message = models.TextField(max_length=500)
     timestamp = models.DateTimeField(auto_now_add=True)
+
+    def __str__(self):
+        return self.contact_name
